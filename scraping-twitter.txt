@@ -1,0 +1,4 @@
+scraping twitter
+
+list of image urls in tweets
+_.map($(".AdaptiveMedia-singlePhoto img"), function(el) { return $(el).attr("src") })
